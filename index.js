@@ -22,10 +22,10 @@ function longPlaneteerCalls(words) {
 }
 
 
-function findTheCheese (foods) {
-  for(var i=0;i<foods.length;i++){
-   if (foods[i]=="cheddar" ||foods[i]=="gouda" ||foods[i]=="camembert"){
-     return foods[i]}
+function findTheCheese (array) {
+  for(var i=0;i<array.length;i++){
+   if (array[i]=="cheddar" ||array[i]=="gouda" ||array[i]=="camembert"){
+     return array[i]}
    }
  return "no cheese!"
  }
